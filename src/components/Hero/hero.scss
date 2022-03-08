@@ -1,0 +1,126 @@
+@import "../../styles/global.scss";
+
+.main__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 60px;
+  }
+
+  #main{
+    background-color: $background-light;
+    width: 100%;
+  }
+  
+  .main__img{
+    img{
+      width: 674px;
+      margin-top: 250px;
+      padding-right: 80px;
+      height: 674px;
+      padding-left: 60px;
+    }
+  }
+  
+  .main__content{
+    width: 100%;
+    padding-bottom: 100px;
+
+    h1{
+      border-top: 1px solid $primary-color-line;
+      padding: 24px 0;
+      text-align: right;
+      font-style: italic;
+      font-family: "Garamond";
+      font-size: 10rem;
+      font-family: Garamond;
+      font-style: italic;
+      font-weight: normal;
+      line-height: 80%;
+      text-align: right;
+      letter-spacing: -0.05em;
+      text-transform: capitalize;
+       
+        &::after{
+          content:'';
+          display: block;
+          background-color: $primary-color-line;
+          margin-left: auto;
+          height: 1px;
+          width: 100%;
+        }       
+    }
+     
+    .main__subhead{
+      font-family: Garamond;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 64px;
+      line-height: 100%;  
+      letter-spacing: -0.04em;
+      text-transform: capitalize;
+      padding-top: 135px;
+      padding-left: 50px;
+      padding-right: 200px;
+
+        &::after{
+          content:'';
+          display: block;
+          height: 1px;
+          width: 100%;
+          border-bottom: 1px solid $primary-color-line;
+        }       
+    }
+   
+    .main__subtitle{
+      display: flex;
+      justify-content: flex-end;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 120%;
+      letter-spacing: -0.02em;
+      padding-top: 80px;
+      padding-bottom: 28px;
+  
+      .script-text{
+        font-family: 'Pinyon Script', cursive;
+        padding-right: 10px;
+      }
+    }
+
+    .info__container{
+  
+      padding-left: 50px;
+      
+      .main__eyebrow{
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: 0.04em;
+    
+       .title{
+          padding: 20px 0 16px 0;
+          text-transform: uppercase;
+          font-size: 15px;
+          border-top: 1px solid $primary-color-text;
+       }
+  
+        p{ 
+          font-family: Garamond;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 110%;      
+          letter-spacing: -0.02em;
+          text-transform: capitalize;
+          padding-bottom: 24px ;
+        }
+      }
+  
+    }
+}
+
+
+
+  
+

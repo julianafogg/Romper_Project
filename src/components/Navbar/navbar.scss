@@ -1,0 +1,22 @@
+@import "../../styles/global.scss";
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    padding: 25px 60px 80px 60px;
+    background-color: $background-light;
+
+    .navbar__logo {
+      font-family: Garamond;
+      font-size: 40px;
+      text-decoration: none;
+      color: #10403D
+    }
+
+    .navbar__menu{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }

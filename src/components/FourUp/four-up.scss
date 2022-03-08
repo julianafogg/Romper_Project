@@ -1,0 +1,48 @@
+@import "../../styles/global.scss";
+
+.fourup__container {
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 80px;
+
+    .card {
+      margin: 0 60px 0 0; 
+     
+    img {
+       max-width: 100%;    
+    }
+
+    h5 { 
+       font-family: Garamond;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 15px;
+       line-height: 100%;
+       letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 40px 0 16px 0
+    }
+
+    p{
+        font-family: Garamond;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+    }   
+  }
+}
+
+.bottom__image{
+    padding: 80px 0 80px 0;
+  
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 970px;
+    }
+}
+

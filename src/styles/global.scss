@@ -1,0 +1,48 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+//Font Variables
+$font-stack: 'Poppins', sans-serif;
+
+// Color Variables
+$primary-color-text: #10403D;
+$primary-color-line: #E79973;
+$background-light: #F8F0DF;
+$background-white: #fff;
+
+
+ *,
+ *::before,
+ *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font: 100% $font-stack;
+  color: #10403D;
+  margin-right: 0;
+  background-color: $background-white;
+  height: 100%;
+
+}
+
+//PX to REM FUNCTION 
+
+// define base font size 
+$base-size: 16px;
+
+// function to convert px to rem
+//
+// the second argument allows to specify the base for special cases, but is totally optional
+@function rem($size, $context: $base-size) {
+  @return calc($size / $context)
+}
+
+
+
+
+
