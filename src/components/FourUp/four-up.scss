@@ -7,7 +7,18 @@
 
     .card {
       margin: 0 60px 0 0; 
-     
+
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(4) {
+       width: 216px;
+      }
+
+      &:nth-child(3){
+          width: 492px;
+ 
+      }
+
     img {
        max-width: 100%;    
     }

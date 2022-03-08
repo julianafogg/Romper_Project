@@ -24,7 +24,7 @@
             max-width: 100%; 
             padding-right: 60px;
 
-            &:last-child {
+            &:last-child(2) {
              padding-right: 0;
             }    
         }

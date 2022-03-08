@@ -10,8 +10,12 @@
     .card {
       margin: 0 60px 0 0; 
 
-      :nth-child(2) {
-        width: 276px;
+      &:nth-child(odd) {
+        width: 492px;
+      }
+
+      &:nth-child(2) {
+        width: 216px;
       }
      
       img {
