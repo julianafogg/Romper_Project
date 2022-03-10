@@ -9,17 +9,23 @@ export const ThreeUp= (props) => {
   return (
     <section class="threeup__container">
         <div class="card">
+          <div class="odd-img-wrapper">
             <img src={ image2} alt='mom-baby'/>
+            </div>
             <h5>Parenting</h5>
             <p>Mothering & Nurturing Your Children Is A Form Of Resistance</p>
         </div>
         <div class="card">
+        <div class="even-img-wrapper">
           <img src={ image3} alt='mom-baby'/>
+          </div>
           <h5>Parenting</h5>
           <p>Amy Schumer Is Done With The “Suck It The F*ck Up” Attitude To Pregnancy</p>
         </div>
         <div class="card">
+        <div class="odd-img-wrapper">
           <img src={ image4} alt='mom-baby'/>
+          </div>
           <h5>Parenting</h5>
           <p>The House Passed 2 Child Care Funding Bills To Help Parents & Providers Amid COVID</p>
         </div>   

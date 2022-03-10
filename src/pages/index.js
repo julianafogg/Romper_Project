@@ -8,10 +8,6 @@ import { FourUp } from "../components/FourUp"
 
 export default function Homepage() {
 
-// const data ={
-// all the site data goes here as well as pitures
-// }
-
   return (
     <main>
       <Navbar/>

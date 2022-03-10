@@ -22,24 +22,10 @@ $background-white: #fff;
 }
 
 body {
-  font: 100% $font-stack;
+  font-family: $font-stack;
   color: #10403D;
   margin-right: 0;
-  background-color: $background-white;
-  height: 100%;
-
-}
-
-//PX to REM FUNCTION 
-
-// define base font size 
-$base-size: 16px;
-
-// function to convert px to rem
-//
-// the second argument allows to specify the base for special cases, but is totally optional
-@function rem($size, $context: $base-size) {
-  @return calc($size / $context)
+ 
 }
 
 

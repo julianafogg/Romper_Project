@@ -4,18 +4,18 @@
   .threeup__container {
     display: flex;
     background-color: $background-light;
-    padding-left: 60px;
-    padding-bottom: 80px;
+    padding-left: 3.75rem;
+    padding-bottom: 5rem;
   
     .card {
-      margin: 0 60px 0 0; 
+      margin: 0 3.75rem 0 0; 
 
       &:nth-child(odd) {
-        width: 492px;
+        width: 30.75rem;
       }
 
       &:nth-child(2) {
-        width: 216px;
+        width: 13.5rem;
       }
      
       img {
@@ -26,21 +26,24 @@
        font-family: Garamond;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 0.93rem;
         line-height: 100%;
         letter-spacing: 0.04em;
         text-transform: uppercase;
-        padding: 40px 0 16px 0
+        padding: 2.5rem 0 1rem 0
       }
 
       p{
         font-family: Garamond;
         font-style: normal;
         font-weight: normal;
-        font-size: 30px;
+        font-size: 1.87rem;
         line-height: 100%;
         letter-spacing: -0.03em;
         text-transform: capitalize;
+        display: block;
+        padding-left: 20px;
+        max-width: 372px;
       }
     }
 }

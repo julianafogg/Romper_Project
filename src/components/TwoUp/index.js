@@ -13,15 +13,19 @@ export const TwoUp= (props) => {
           <div className="cards">
             <div className="card">
               <img src={ image5} alt='mom-baby'/>  
-              <h5 className="main__eyebrow">Motherhood</h5>
-              <p>14 Children's Book Recommendations From Independent Booksellers</p>
+              <div className="wrapper">
+                <h5 className="main__eyebrow">Motherhood</h5>
+                <p>14 Children's Book Recommendations From Independent Booksellers</p>
             </div>
+          </div>
     
           <div class="card">
-            <img src={ image6} alt='mom-baby'/>  
-            <h5 className="main__eyebrow">Motherhood</h5>
-            <p>9 Teachers Talk Working & Parenting At Home, As “Reopenings” Loom</p>
+            <img src={ image6} alt='mom-baby'/> 
+            <div className="wrapper"> 
+              <h5 className="main__eyebrow">Motherhood</h5>
+              <p>9 Teachers Talk Working & Parenting At Home, As “Reopenings” Loom</p>
             </div>
+          </div>
         </div>
     </section>  
   )
