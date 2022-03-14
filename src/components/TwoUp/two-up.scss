@@ -1,67 +1,43 @@
 @import "../../styles/global.scss";
 
-.twoup__container{  
-    padding-top: 40px;
-    padding-bottom: 80px;
-    padding-left: 60px;
-  
-    h1{
-        font-family: Garamond;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 6.25rem;
-        line-height: 80%;
-        letter-spacing: -0.05em;
-        text-transform: capitalize;
-        border-top: 0.5px solid #EC6436;
-        padding: 2.5rem 3.75rem 5rem 0;
-    }
+.thwoup__container {
+  display: flex;
+  justify-content: space-between;
+ 
+  .twoup__card {
+    padding-right:160px;
 
-    .cards {
-        display: flex;
+    .wrapper{  
+      display: flex;
+      justify-content: space-between;
+      padding-top: 32px;
 
-        img {
-            max-width: 100%; 
-            padding-right: 3.75rem;
-
-            &:last-child(2) {
-             padding-right: 0;
-            }    
+      .cards {
+        &:nth-child(2) {
+        padding-right: 0;
         }
-           
-       .card {   
-        .wrapper{
-            display: flex;
-        
-            .main__eyebrow {
-                font-family: Garamond;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 0.93rem;
-                line-height: 100%;
-                letter-spacing: 0.04em;
-                text-transform: uppercase;    
-                padding-top: 2.5rem; 
-            }
-        
-            p{
-                font-family: Garamond;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 2.5rem;
-                line-height: 110%;
-                letter-spacing: -0.04em;
-                text-transform: capitalize;
-                padding-top: 32px;
-                padding-left: 104px;
-                
-            }
-        }
-    }
-
-    }
+      }
     
+      h4 { 
+        font-size: 0.93rem;
+        line-height: 100%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 0 0 1rem 0;
+        }
+        
+      p {
+        font-size: 1.87rem;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        max-width: 372px;
+      } 
+    }
+  }     
 }
+
+
 
 
 

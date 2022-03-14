@@ -1,0 +1,37 @@
+
+@import "../../styles/global.scss";
+
+.lockup{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+   &__image {
+    object-fit: cover;
+    width: 52%;
+    max-width: 40%;
+  }
+
+  &__right{
+    padding-top: 40px;
+    margin-left: 153px;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 64px;
+    margin-bottom: 80px;
+  }
+
+  h3{
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 24px;
+  }
+
+  li{
+    border-top: 1px solid $primary-color-line;
+    padding: 24px 0 20px;
+    list-style-type: none;
+  }
+}

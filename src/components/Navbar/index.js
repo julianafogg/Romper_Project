@@ -2,7 +2,7 @@ import React from "react"
 import "./navbar.scss"
 
 
-export const Navbar= (props) => {
+const Navbar= (props) => {
   return (
   <nav className="navbar">
       <div className="navbar__container">
@@ -12,3 +12,5 @@ export const Navbar= (props) => {
   </nav>
   )
 }
+
+export default Navbar;

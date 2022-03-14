@@ -104,5 +104,12 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-
+<!-- 
+<div className="info__container">
+              {list_item.map((list_items,index) => (
+                <div key={index} className="main__eyebrow">
+                  <h4 className="title">{list_items.title}</h4>
+                  <p >{list_items.body}</p>
+                </div>
+              ))} -->
 
