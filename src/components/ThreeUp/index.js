@@ -4,7 +4,7 @@ import "./three-up.scss"
 
 const ThreeUp= ({items}) => {
   return (
-    <div class="threeup__container">
+    <div class="threeup">
         {items.map((item, index) =>
           <div key={index} className="threeup__card">
              <Card content={item} key={index} />

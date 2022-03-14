@@ -58,7 +58,7 @@ export default function Homepage() {
           },
           eyebrow: "Parenting",
           body:
-            "Amy Schumer Is Done With The “Suck It The F*ck Up” Attitude To Pregnancy."
+            "The House Passed 2 Child Care Funding Bills To Help Parents & Providers Amid COVID."
         },
       ],
       twoUp: [

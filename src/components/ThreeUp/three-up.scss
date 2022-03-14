@@ -1,12 +1,12 @@
 
 @import "../../styles/global.scss";
 
-  .threeup__container {
+  .threeup {
     display: flex;
     padding-bottom: 5rem;
     justify-content: space-between;
 
-    .threeup__card {
+    &__card {
       margin: 0 3.75rem 0 0; 
 
       &:nth-child(odd) {
@@ -22,23 +22,17 @@
       }
 
      h4 { 
-      font-family: Garamond;
-      font-style: normal;
-      font-weight: normal;
       font-size: 0.93rem;
       line-height: 100%;
       letter-spacing: 0.04em;
-      text-transform: uppercase;
       padding: 2.5rem 0 1rem 0
       }
-      
+
       p {
         font-size: 1.87rem;
         line-height: 100%;
         letter-spacing: -0.03em;
-        display: block;
-        padding-left: 20px;
-        max-width: 372px;
+        margin-right: 1.8rem;
       }      
     }
 }
