@@ -4,7 +4,7 @@ import "./two-up.scss"
 
 const TwoUp= ({items}) => {
   return (
-    <div class="thwoup">
+    <div className="twoup">
         {items.map((item, index) =>
           <div key={index} className="twoup__card">
              <Card content={item} key={index}/>

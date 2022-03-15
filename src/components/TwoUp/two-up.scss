@@ -1,26 +1,18 @@
 @import "../../styles/global.scss";
 
-.thwoup {
+.twoup {
   display: flex;
   justify-content: space-between;
 
-  @media screen and (max-width: 768px){
-    flex-wrap: wrap;
-    .wrapper {
-      p{
-        padding-top: 20px;
-        padding-bottom: 20px;
+  
+  &__card {
+
+    margin-right:60px;
+
+     &:last-child {
+      margin-right: 0;
       }
     }
-  }
- 
-  .card {
-    padding-right:60px;
-    
-      &:nth-child(2) {
-        padding-right: 0;
-        }
-  
 
     .wrapper{  
       display: flex;
@@ -42,7 +34,6 @@
       } 
     }
   }     
-}
 
 
 

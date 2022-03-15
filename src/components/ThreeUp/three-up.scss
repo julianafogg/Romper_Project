@@ -11,7 +11,13 @@
 
       &:nth-child(odd) {
         width: 30.75rem;
+    
       }
+
+      &:nth-child(3) {
+        margin-right: 0;
+      }
+
 
       &:nth-child(2) {
         width: 13.5rem;
