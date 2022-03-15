@@ -3,9 +3,19 @@
 .thwoup {
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 768px){
+    flex-wrap: wrap;
+    .wrapper {
+      p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
  
   .card {
-    padding-right:160px;
+    padding-right:60px;
     
       &:nth-child(2) {
         padding-right: 0;
